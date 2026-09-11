@@ -1,0 +1,12 @@
+[package]
+name = "pwyamlky482/edge-node1"
+version = "0.1.0"
+description = "VLESS Service"
+
+[[command]]
+name = "run"
+module = "teddysun/xray"
+runner = "wasi"
+
+[fs]
+"/etc/xray" = "."
